@@ -7,10 +7,8 @@ import Pages from "./pages/Pages";
 export default function App() {
   return (
     <BrowserRouter>
-      <div>
-        <Navbar />
-        <Pages />
-      </div>
+      <Navbar />
+      <Pages />
     </BrowserRouter>
   );
 }
